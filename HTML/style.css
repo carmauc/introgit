@@ -1,0 +1,10 @@
+/*agregar estilo a un id */
+#Tituloppal{
+color:crimson;
+text-align: center;
+
+}
+/*agregar estilo a una clase con . */
+.justificado{
+    text-align: justify;
+}
