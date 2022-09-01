@@ -1,0 +1,23 @@
+#titulo {
+	color: white;
+}
+
+td,/* th, td y tabla tienen las sgrtes caracteristicas*/
+th,
+table {
+	border: 1.5px solid rgb(83, 83, 83);
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+table {             
+
+	padding: 0px;
+	width: 100%;  /* Le estamos diciendo que sea del ancho del padre en este caso la seccion */
+}
+#section-table-users {
+	padding: 40px;   /* padding solo toma espaciado en todos los lados */
+}
+#cont-btn-crear-usuario {
+	padding-left: 45%;
+}

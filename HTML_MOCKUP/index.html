@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla mockup</title>
+    <!--Cargar estilos css-->
+		<link rel="stylesheet" href="./styles/index.css" />
+</head>
+<body>
+    <!--Cabecera del contenido-->
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <!-- Navbar content -->
+            <h2 id="titulo">Usuarios registrados</h2>
+        </nav>
+    </header>
+    <!--Cuerpo del contenido-->
+    <main>
+        <section id="section-table-users">  <!--identificamos la seccion con un nombre que no se repita para los estilos css-->
+            <!--Tabla-->
+            <table class="table" id="table-users">
+                <!--Encabezado de la tabla-->
+                <thead>
+                    <tr>
+                        <th>Foto</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Email</th>
+                        <th>Fecha nacimiento</th>
+                    </tr>
+                </thead>
+                    <!--cuerpo de la tabla-->
+                    <tbody>
+                        <tr><!--crar fila-->
+                        <td><img 
+                            width="120"
+                            src="https://avatars.dicebear.com/api/avataaars/:seed.svg"></td>
+                        <td>Alejandra</td>  <!--crar columna-->
+                        <td>Hernandez</td>
+                        <td>aleja@gmail.com</td>
+                        <td>03/09/95</td>
+                        </tr>     <!--cerrar fila-->  
+
+                        <tr><!--crar fila 2-->
+                            <td><img 
+                                width="120"
+                                src="https://avatars.dicebear.com/api/avataaars/:seed.svg"></td>
+                            <td>MAnuela</td>  <!--crar columna-->
+                            <td>Hernandez</td>
+                            <td>manuela@gmail.com</td>
+                            <td>03/09/98</td>
+                            </tr>     <!--cerrar fila 2--> 
+
+
+                    </tbody>
+
+            </table>
+        </section>
+        <div id="cont-btn-crear-usuario">    <!--contenedor e id para el boton-->
+   <button>Crear Usuario</button>
+</div>
+    </main>
+    <!--Pie de pagina-->
+    <footer></footer>
+    <!--Cargar scripts-->
+    <script src="./js/index.js"></script>
+</body>
+</html>
